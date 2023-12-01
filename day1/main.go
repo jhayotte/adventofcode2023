@@ -9,7 +9,6 @@ import (
 )
 
 // Part 2
-// 55062 too high
 func main() {
 
 	//file, err := os.Open("input_example_part2.txt")
@@ -145,7 +144,6 @@ func Reverse(s string) (result string) {
 
 func FirstChar(s string) (result int) {
 	for _, v := range s {
-
 		d, err := strconv.Atoi(string(v))
 		if err == nil {
 			return d
